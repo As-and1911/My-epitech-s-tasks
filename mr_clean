@@ -1,1 +1,1 @@
-find .-type f -name'*~' -or -name'#*#' -exect rm {} \;
+find .-type f -name'*~' -exect rm {} \; -o -type f - name '#*#' -exect rm {} \;
